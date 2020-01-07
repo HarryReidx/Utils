@@ -1,7 +1,7 @@
 package cn.felord.datetime.convert
 
 class ApplyOperation {
-
+""
 }
 
 class ApplyTest {
