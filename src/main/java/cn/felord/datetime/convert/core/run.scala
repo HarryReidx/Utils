@@ -15,7 +15,7 @@ object aa extends App {
   val sortArr = arr.sortWith(_<_).mkString("<",",",">")
   val map = Map("b" -> 2,"a" -> 1)
   val sortMap = {
-    map.toList.sortBy(_ _2)
+//    map.toList.sortBy(_ _2)
   }
   map.getOrElse("c",Nil)
   val yMap = for ((k,v) <- map) yield(v,k)
